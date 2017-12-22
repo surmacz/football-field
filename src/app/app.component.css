@@ -1,0 +1,8 @@
+.field {
+  font-family: 'Work Sans', sans-serif;
+  background-image: url('../assets/football-field.jpg');
+  position: relative;
+  width: 1507px;
+  height: 1011px;
+  margin: 40px 0;
+}

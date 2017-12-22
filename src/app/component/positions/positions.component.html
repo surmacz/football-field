@@ -1,0 +1,4 @@
+<div *ngFor="let position of positions" [style.left.px]="getX(position)"
+     [style.bottom.px]="getY(position)" [style.transition]="transition" class="position">
+  <div class="id">{{position[0]}}</div>
+</div>

@@ -1,0 +1,4 @@
+<div class="actions">
+  <div *ngIf="!running" class="play" (click)="emit(true)">Play</div>
+  <div *ngIf="running" class="pause" (click)="emit(false)">Pause</div>
+</div>

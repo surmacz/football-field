@@ -1,0 +1,21 @@
+.actions {
+  position: absolute;
+  top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px 20px;
+}
+
+.actions > div {
+  display: inline-block;
+  padding: 2px 20px;
+  border-radius: 13px;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.actions > div:hover {
+  transform: scale(1.05);
+  transition: all 100ms ease-in;
+}

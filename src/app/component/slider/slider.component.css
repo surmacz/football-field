@@ -1,0 +1,16 @@
+.slider {
+  position: absolute;
+  height: 50px;
+  width: 1500px;
+  bottom: 40px;
+  left: 0;
+  opacity: 0.7;
+}
+
+.slider input {
+  width: 100%;
+}
+
+.slider input:hover {
+  cursor: pointer;
+}
